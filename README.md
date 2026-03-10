@@ -28,5 +28,6 @@
 3)  Debit_WhenAmountIsMoreThanBalance_ShouldThrowArgumentOutOfRange — ПРОЙДЕН
 4)  Credit_WithValidAmount_UpdatesBalance — ПРОЙДЕН
 5)  Credit_WhenAmountIsLessThanZero_ShouldThrowArgumentOutOfRange — ПРОЙДЕН
+
 Рефакторинг тестируемого кода позволил сделать тесты более информативными и надёжными: теперь при сбое теста точно видно, какое условие нарушено.
 Таким образом, модульное тестирование подтвердило свою эффективность для раннего обнаружения ошибок и улучшения качества кода.
